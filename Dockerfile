@@ -21,7 +21,6 @@
 # used as storage for persistent data created by the TURN server.
 
 FROM phusion/baseimage:0.9.19
-MAINTAINER Simon Eisenmann <simon@struktur.de>
 
 # Set locale.
 RUN locale-gen --no-purge en_US.UTF-8
